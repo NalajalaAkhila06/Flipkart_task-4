@@ -68,14 +68,8 @@ python main.py
 ```
 
 ### 3. Output
-```
-✈️✈️✈️✈️✈️✈️✈️✈️✈️✈️✈️✈️✈️✈️✈️✈️✈️✈️✈️✈️✈️✈️✈️✈️✈️✈️✈️✈️✈️✈️
-   AIRLINE OPS AUTOMATION SYSTEM
-✈️✈️✈️✈️✈️✈️✈️✈️✈️✈️✈️✈️✈️✈️✈️✈️✈️✈️✈️✈️✈️✈️✈️✈️✈️✈️✈️✈️✈️✈️
- Configuration loaded successfully
-Directory structure verified
- All modules initialized successfully
-```
+<img width="830" height="769" alt="Screenshot 2026-01-21 232209" src="https://github.com/user-attachments/assets/b0b20aad-1f29-4797-bc2b-3f5b0b4fb6f0" />
+
 
 ##  OOP Structure
 ### AirlineOpsAutomation Class
