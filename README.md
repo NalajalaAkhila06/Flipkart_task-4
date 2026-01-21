@@ -75,26 +75,7 @@ python main.py
 Directory structure verified
  All modules initialized successfully
 
-============================================================
-PROCESSING FLIGHT DATA FOR: 2026-01-21
-============================================================
 
-============================================================
- AIRLINE OPERATIONS DASHBOARD
-============================================================
-
-Flights Monitored: 1
-Predicted Delays: 0
-Health Alerts: 0
-Route Alerts: 1
-
-==============================
-
- Daily report generated: output/reports/aviation_report_2026-01-21.txt
-
-==================================================
-  SYSTEM EXECUTION COMPLETE
-==================================================
 ##  OOP Structure
 ### AirlineOpsAutomation Class
 Handles:
