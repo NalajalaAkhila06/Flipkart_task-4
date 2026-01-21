@@ -42,6 +42,7 @@ AirlineOpsAutomation → main orchestrator
 Individual modules for each operational component
 
 ## 📂 Project Structure
+```
 airline_ops_automation/
 │── logs/
 │   ├── aircraft_health_alerts.log
@@ -59,8 +60,8 @@ airline_ops_automation/
 │   ├── reporter.py
 │── airline_config.json
 │── main.py
-
-##  How to Run
+```
+## How to Run
 ###  Run the program:
 ```bash
 python main.py
