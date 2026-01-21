@@ -1,0 +1,125 @@
+# =============================================================================
+# CRITICAL FLIGHT ALERTS LOG
+# System: SkyJet Aviation Critical Operations
+# Security Level: RESTRICTED
+# Generated: 2024-01-20 08:00:00
+# =============================================================================
+
+[CRITICAL] 2024-01-20 08:45:10 - FLIGHT EK505 - ENGINE TEMPERATURE EXCEEDANCE
+╔══════════════════════════════════════════════════════════════════════╗
+║ ALERT ID: CRT-20240120-001                                           ║
+║ FLIGHT: EK505 (Emirates) - Dubai to Singapore                        ║
+║ AIRCRAFT: A6-EOA (Boeing 777-300ER)                                  ║
+║ LOCATION: 8.5° N, 76.9° E - Over Arabian Sea                         ║
+║ ALTITUDE: 37,000 ft                                                  ║
+╚══════════════════════════════════════════════════════════════════════╝
+DETAILS:
+  - Engine #2 temperature: 145°C (Threshold: 135°C)
+  - Duration of exceedance: 8 minutes
+  - Oil pressure: Normal
+  - Fuel flow: Within limits
+  - Passenger count: 342
+  - Crew: 16
+
+IMMEDIATE ACTIONS REQUIRED:
+  1. Reduce engine power to 85%
+  2. Contact ATC for priority descent to 31,000 ft
+  3. Notify cabin crew of possible turbulence
+  4. Prepare for possible diversion to Mumbai (BOM)
+
+STATUS: PILOT ACKNOWLEDGED - POWER REDUCED, DESCENDING
+----------------------------------------------------------------------
+
+[CRITICAL] 2024-01-20 10:15:22 - FLIGHT AI203 - CABIN PRESSURE LOSS
+╔══════════════════════════════════════════════════════════════════════╗
+║ ALERT ID: CRT-20240120-002                                           ║
+║ FLIGHT: AI203 (Air India) - Delhi to London                         ║
+║ AIRCRAFT: VT-ANH (Boeing 787-8)                                     ║
+║ LOCATION: 48.8° N, 9.2° E - Over Germany                            ║
+║ ALTITUDE: 39,000 ft                                                  ║
+╚══════════════════════════════════════════════════════════════════════╝
+DETAILS:
+  - Cabin pressure: 12,500 ft and rising rapidly
+  - Oxygen masks deployed: YES
+  - Rate of pressure loss: 1,500 ft/min
+  - Automatic descent initiated: YES
+  - Target altitude: 10,000 ft
+  - Nearest airport: Frankfurt (FRA) - 85 nm
+
+IMMEDIATE ACTIONS REQUIRED:
+  1. Confirm oxygen masks deployment
+  2. Declare MAYDAY with ATC
+  3. Initiate emergency descent procedure
+  4. Divert to Frankfurt International (EDDF)
+  5. Prepare for emergency landing
+
+STATUS: EMERGENCY DESCENT INITIATED - DIVERTING TO FRANKFURT
+----------------------------------------------------------------------
+
+[CRITICAL] 2024-01-20 12:30:45 - FLIGHT 6E567 - FIRE INDICATION
+╔══════════════════════════════════════════════════════════════════════╗
+║ ALERT ID: CRT-20240120-003                                           ║
+║ FLIGHT: 6E567 (IndiGo) - Bangalore to Delhi                         ║
+║ AIRCRAFT: VT-IZD (Airbus A320neo)                                    ║
+║ LOCATION: 23.0° N, 75.8° E - Over Madhya Pradesh                    ║
+║ ALTITUDE: 28,000 ft                                                  ║
+╚══════════════════════════════════════════════════════════════════════╝
+DETAILS:
+  - Fire indication: Cargo hold, Zone B
+  - Fire suppression system: ACTIVATED
+  - Smoke detection: POSITIVE
+  - Cargo type: General cargo, no hazardous materials
+  - Passenger count: 178
+  - Crew: 6
+
+IMMEDIATE ACTIONS REQUIRED:
+  1. Execute cargo fire emergency checklist
+  2. Contact ATC for immediate diversion
+  3. Nearest suitable airport: Raja Bhoj Airport (BHO) - 45 nm
+  4. Prepare for emergency evacuation on landing
+  5. Alert emergency services at destination
+
+STATUS: FIRE SUPPRESSION ACTIVATED - DIVERTING TO BHOPAL
+----------------------------------------------------------------------
+
+[CRITICAL] 2024-01-20 14:05:18 - FLIGHT UK945 - SEVERE TURBULENCE INJURY
+╔══════════════════════════════════════════════════════════════════════╗
+║ ALERT ID: CRT-20240120-004                                           ║
+║ FLIGHT: UK945 (Vistara) - Mumbai to Kolkata                         ║
+║ AIRCRAFT: G-VUKE (Airbus A321neo)                                    ║
+║ LOCATION: 20.6° N, 86.9° E - Over Bay of Bengal                     ║
+║ ALTITUDE: 36,000 ft                                                  ║
+╚══════════════════════════════════════════════════════════════════════╝
+DETAILS:
+  - Turbulence severity: SEVERE
+  - Injuries reported: 3 passengers, 1 crew member
+  - Seatbelt sign was: ON
+  - Aircraft damage: Minor overhead bin damage
+  - Medical assistance required: YES
+  - Nearest airport with medical facilities: Bhubaneswar (BBI) - 120 nm
+
+IMMEDIATE ACTIONS REQUIRED:
+  1. Administer first aid to injured persons
+  2. Contact ATC for priority landing
+  3. Request medical services on arrival
+  4. Assess aircraft structural integrity
+  5. Prepare passenger statements
+
+STATUS: MEDICAL EMERGENCY - DIVERTING TO BHUBANESWAR
+----------------------------------------------------------------------
+
+# =============================================================================
+# CRITICAL ALERT SUMMARY
+# =============================================================================
+# Date: 2024-01-20
+# Total Critical Alerts: 4
+# Resolved: 2 (EK505, AI203)
+# Active: 2 (6E567, UK945)
+# Fatalities: 0
+# Major Injuries: 4
+# Aircraft Damage: Minor
+# =============================================================================
+
+[END OF LOG ENTRY]2026-01-20 21:18:33,684 - CRITICAL - {"flight_id": "AI102", "aircraft_id": "VT-XYZ", "parameter": "engine_thrust", "value": 78.5, "threshold": 20, "severity": "HIGH", "timestamp": "2026-01-20T21:18:33.683742", "message": "Engine thrust deviation: 21.5%"}
+2026-01-20 21:19:09,522 - CRITICAL - {"flight_id": "AI102", "aircraft_id": "VT-XYZ", "parameter": "engine_thrust", "value": 78.5, "threshold": 20, "severity": "HIGH", "timestamp": "2026-01-20T21:19:09.522238", "message": "Engine thrust deviation: 21.5%"}
+2026-01-20 21:22:49,610 - CRITICAL - {"flight_id": "AI102", "aircraft_id": "VT-XYZ", "parameter": "engine_thrust", "value": 78.5, "threshold": 20, "severity": "HIGH", "timestamp": "2026-01-20T21:22:49.609006", "message": "Engine thrust deviation: 21.5%"}
