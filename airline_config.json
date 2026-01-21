@@ -1,0 +1,36 @@
+{
+    "airline_name": "SkyJet Aviation",
+    "thresholds": {
+        "crosswind_max_knots": 40,
+        "visibility_min_meters": 1500,
+        "engine_thrust_deviation_percent": 20,
+        "runway_queue_max_minutes": 25,
+        "boarding_max_minutes": 45,
+        "engine_vibration_threshold": 7.5,
+        "altitude_fluctuation_threshold": 1000,
+        "turbulence_moderate_threshold": 4,
+        "fuel_burn_threshold_percent": 15,
+        "cabin_temp_threshold_celsius": 28
+    },
+    "crew_rules": {
+        "pilot_max_hours": 8,
+        "crew_max_hours": 10,
+        "minimum_rest_hours": 12,
+        "maximum_crew_per_flight": 8
+    },
+    "aircraft": {
+        "types": ["A320", "B737", "A350", "B787"],
+        "capacity": {
+            "A320": 190,
+            "B737": 175,
+            "A350": 300,
+            "B787": 350
+        }
+    },
+    "airports": ["DEL", "BOM", "BLR", "MAA", "HYD", "CCU", "DXB", "LHR", "JFK", "SIN"],
+    "alert_levels": {
+        "LOW": "INFO",
+        "MEDIUM": "WARNING",
+        "HIGH": "DANGER"
+    }
+}
